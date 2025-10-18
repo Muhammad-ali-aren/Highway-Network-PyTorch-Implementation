@@ -14,7 +14,7 @@ y = H(x) * T(x) + x * (1 - T(x))
 \]
 
 Where:
-- **H(x)** → Transform function (e.g., Linear + ReLU)
+- **H(x)** → Transform function (Linear + ReLU)
 - **T(x)** → Transform gate (sigmoid activation)
 - **(1 - T(x))** → Carry gate (controls how much input bypasses transformation)
 
@@ -28,10 +28,8 @@ Where:
 | **Activation**     | ReLU (for H), Sigmoid (for T)              |
 
 ---
-
 ## Author
 Muhammd Ali
 
----
 ## Reference
-Srivastava, R. K., Greff, K., & Schmidhuber, J. (2015).[read the paper here][https://arxiv.org/abs/1505.00387]
+Srivastava, R. K., Greff, K., & Schmidhuber, J. (2015).[read the paper here](https://arxiv.org/abs/1505.00387)
